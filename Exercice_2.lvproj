@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
+	<Property Name="varPersistentID:{6ABF5E7D-B3E4-4C49-8117-C70573B4F765}" Type="Ref">/MyRIOLS/library_bubble.lvlib/angle_mesuré</Property>
+	<Property Name="varPersistentID:{9AB764B5-22C0-439B-80F2-B043C229A16B}" Type="Ref">/MyRIOLS/library_bubble.lvlib/state_button</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -100,7 +102,8 @@ AddOutputFilter chunkFilter
 				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
 			</Item>
 		</Item>
-		<Item Name="Untitled 4.vi" Type="VI" URL="../Untitled 4.vi"/>
+		<Item Name="digital_bubble.vi" Type="VI" URL="../digital_bubble.vi"/>
+		<Item Name="library_bubble.lvlib" Type="Library" URL="../library_bubble.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Accelerometer Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Accelerometer/typedefs/Accelerometer Channels Enum.ctl"/>
